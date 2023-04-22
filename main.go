@@ -6,8 +6,8 @@ import (
 	"time"
 )
 
-var studyFile = "./json/month.json"
-var todayFile = "./json/today.json"
+var studyFile = "/Users/t.tsuchie/Documents/all-practice/study/study/json/month.json"
+var todayFile = "/Users/t.tsuchie/Documents/all-practice/study/study/json/today.json"
 
 func main() {
 	// 引数が設定されていないときはhelpを出力。
