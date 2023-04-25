@@ -1,8 +1,8 @@
-package main
+package command
 
 import "fmt"
 
-func help() {
+func Help() {
 	fmt.Println("help")
 	fmt.Println("		start: 記録を開始")
 	fmt.Println("		end: 記録を終了")

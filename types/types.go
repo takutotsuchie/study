@@ -1,4 +1,4 @@
-package main
+package types
 
 import "time"
 
@@ -7,11 +7,7 @@ type Today struct {
 	StartTime  time.Time     `json:"startTime"`
 }
 
-type StudyMonth struct {
+type MonthData struct {
 	Month int           `json:"month"`
 	Total time.Duration `json:"total"`
-}
-
-type StudyMonthList struct {
-	List []StudyMonth `json:"list"`
 }
